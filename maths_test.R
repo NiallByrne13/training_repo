@@ -8,7 +8,7 @@ simple <- function(x,y) {
 simple(3,6)
 
 complex <- function(x) {
-  x ^ 2
+  ((x + 7) ^ 2)/2
 }
 
 complex(5)
