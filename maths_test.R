@@ -12,3 +12,9 @@ complex <- function(x) {
 }
 
 complex(5)
+
+advanced <- function(x,y){
+  ((x*y)/(x-1))^y
+}
+
+advanced(5,8)
